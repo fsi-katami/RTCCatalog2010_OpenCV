@@ -20,7 +20,7 @@
 <ul> 
 <li>画像処理ライブラリとして広く利用されているOpenCV- 2.0の様々な処理関数をRTコンポーネント化</li> 
 <li>再利用性の高い画像処理RTコンポーネント群</li>
-<li><p><img src="https://github.com/fsi-katami/RTCCatalog2010_OpenCV/blob/master/image/Clipboard3.png" alt=""></p></li>
+<li><p><img src="https://github.com/fsi-katami/RTCCatalog2010_OpenCV/raw/master/image/Clipboard3.png" alt=""></p></li>
 </ul><h1>特徴：</h1> 
  
 <ul> 
