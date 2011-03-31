@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{B1567CE8-265C-4367-8EF5-957420F8631D}") = "RotateComp", "RotateComp_vc8.vcproj", "{A1789801-6188-4C90-AFAF-B57B2F5B31E4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{B1567CE8-265C-4367-8EF5-957420F8631D}") = "Rotate", "Rotate_vc8.vcproj", "{69B5360A-D11B-44DB-9D48-7E0A01A6122C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1789801-6188-4C90-AFAF-B57B2F5B31E4}.Release|Win32.ActiveCfg = Release|Win32
+		{A1789801-6188-4C90-AFAF-B57B2F5B31E4}.Release|Win32.Build.0   = Release|Win32
+		{A1789801-6188-4C90-AFAF-B57B2F5B31E4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A1789801-6188-4C90-AFAF-B57B2F5B31E4}.Debug|Win32.Build.0   = Debug|Win32
+		{69B5360A-D11B-44DB-9D48-7E0A01A6122C}.Release|Win32.ActiveCfg = Release|Win32
+		{69B5360A-D11B-44DB-9D48-7E0A01A6122C}.Release|Win32.Build.0   = Release|Win32
+		{69B5360A-D11B-44DB-9D48-7E0A01A6122C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{69B5360A-D11B-44DB-9D48-7E0A01A6122C}.Debug|Win32.Build.0   = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

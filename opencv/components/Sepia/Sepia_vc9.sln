@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SepiaComp", "SepiaComp_vc9.vcproj", "{789F4B96-85C3-47E1-869B-DCCBC379B99B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sepia", "Sepia_vc9.vcproj", "{E0C78F39-C56A-4437-BE34-00EE83EA9502}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{789F4B96-85C3-47E1-869B-DCCBC379B99B}.Release|Win32.ActiveCfg = Release|Win32
+		{789F4B96-85C3-47E1-869B-DCCBC379B99B}.Release|Win32.Build.0   = Release|Win32
+		{789F4B96-85C3-47E1-869B-DCCBC379B99B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{789F4B96-85C3-47E1-869B-DCCBC379B99B}.Debug|Win32.Build.0   = Debug|Win32
+		{E0C78F39-C56A-4437-BE34-00EE83EA9502}.Release|Win32.ActiveCfg = Release|Win32
+		{E0C78F39-C56A-4437-BE34-00EE83EA9502}.Release|Win32.Build.0   = Release|Win32
+		{E0C78F39-C56A-4437-BE34-00EE83EA9502}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E0C78F39-C56A-4437-BE34-00EE83EA9502}.Debug|Win32.Build.0   = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

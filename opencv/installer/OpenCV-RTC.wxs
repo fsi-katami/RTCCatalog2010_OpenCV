@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">   
+  <?define ProductName = "OpenCV-RTC-0.0.1?>
+  <Product Name="OpenCV-RTC-0.0.1" 
+           Id="06A98853-F461-4EF0-869C-B3C7C6C905A8"
+           Language='$(var.language)'
+	   Codepage='$(var.codepage)'
+	   Version="0.0.1" 
+           Manufacturer="AIST"
+           UpgradeCode="49BB3B22-F6CB-4D46-BCA4-1B5E19D5265E">
+
+    <Package Id="*" 
+             Keywords="Installer"
+             Description="OpenCV-RTM Installer"
+             InstallerVersion="100"
+	     Languages='$(var.language)'
+             Compressed="yes"
+	     SummaryCodepage='$(var.codepage)' />
+    <!-- メディア -->    
+    <Media Id="1" Cabinet="OpenRTC.cab" EmbedCab="yes"/>
+
+    <!-- フォルダ構成 -->
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <!-- Program Files フォルダ -->
+      <Directory Id="ProgramFilesFolder" SourceName="PFILE">
+	<Directory Id="INSTALLLOCATION"
+		   Name="OpenRTM-aist">
+	  <Directory Id="Version"
+		     Name="1.0">
+	    <!-- OpenCV -->
+	    <Directory Id="Components" Name="components">
+	      <Directory Id="CXXexamples" Name="C++">
+	       <Directory Id="OpenCV" Name="OpenCV">
+		<Component Id="Examples" Guid="65ABCD7D-54F5-4ECC-86D3-E9252730448B">
+		  		  <File Id="rtc.conf"
+			Name="rtc.conf" DiskId="1"
+			Source="..\bin\rtc.conf">
+		    		    <Shortcut Id="rtc.conf" Directory="OpenCVMenuFolder"
+			      Name="rtc.conf"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="AffineComp.exe"
+			Name="AffineComp.exe" DiskId="1"
+			Source="..\bin\\AffineComp.exe">
+		    		    <Shortcut Id="AffineComp.exe" Directory="OpenCVMenuFolder"
+			      Name="AffineComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		      <Icon Id="RTC.ico" SourceFile="Bitmaps\RTC.ico"/>
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="BackGroundSubtractionSimpleComp.exe"
+			Name="BackGroundSubtractionSimpleComp.exe" DiskId="1"
+			Source="..\bin\\BackGroundSubtractionSimpleComp.exe">
+		    		    <Shortcut Id="BackGroundSubtractionSimpleComp.exe" Directory="OpenCVMenuFolder"
+			      Name="BackGroundSubtractionSimpleComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="BinarizationComp.exe"
+			Name="BinarizationComp.exe" DiskId="1"
+			Source="..\bin\\BinarizationComp.exe">
+		    		    <Shortcut Id="BinarizationComp.exe" Directory="OpenCVMenuFolder"
+			      Name="BinarizationComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="CameraViewerComp.exe"
+			Name="CameraViewerComp.exe" DiskId="1"
+			Source="..\bin\\CameraViewerComp.exe">
+		    		    <Shortcut Id="CameraViewerComp.exe" Directory="OpenCVMenuFolder"
+			      Name="CameraViewerComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="ChromakeyComp.exe"
+			Name="ChromakeyComp.exe" DiskId="1"
+			Source="..\bin\\ChromakeyComp.exe">
+		    		    <Shortcut Id="ChromakeyComp.exe" Directory="OpenCVMenuFolder"
+			      Name="ChromakeyComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="DilationErosionComp.exe"
+			Name="DilationErosionComp.exe" DiskId="1"
+			Source="..\bin\\DilationErosionComp.exe">
+		    		    <Shortcut Id="DilationErosionComp.exe" Directory="OpenCVMenuFolder"
+			      Name="DilationErosionComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="EdgeComp.exe"
+			Name="EdgeComp.exe" DiskId="1"
+			Source="..\bin\\EdgeComp.exe">
+		    		    <Shortcut Id="EdgeComp.exe" Directory="OpenCVMenuFolder"
+			      Name="EdgeComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="FindcontourComp.exe"
+			Name="FindcontourComp.exe" DiskId="1"
+			Source="..\bin\\FindcontourComp.exe">
+		    		    <Shortcut Id="FindcontourComp.exe" Directory="OpenCVMenuFolder"
+			      Name="FindcontourComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="FlipComp.exe"
+			Name="FlipComp.exe" DiskId="1"
+			Source="..\bin\\FlipComp.exe">
+		    		    <Shortcut Id="FlipComp.exe" Directory="OpenCVMenuFolder"
+			      Name="FlipComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="HistogramComp.exe"
+			Name="HistogramComp.exe" DiskId="1"
+			Source="..\bin\\HistogramComp.exe">
+		    		    <Shortcut Id="HistogramComp.exe" Directory="OpenCVMenuFolder"
+			      Name="HistogramComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="HoughComp.exe"
+			Name="HoughComp.exe" DiskId="1"
+			Source="..\bin\\HoughComp.exe">
+		    		    <Shortcut Id="HoughComp.exe" Directory="OpenCVMenuFolder"
+			      Name="HoughComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="IEEE1394CameraComp.exe"
+			Name="IEEE1394CameraComp.exe" DiskId="1"
+			Source="..\bin\\IEEE1394CameraComp.exe">
+		    		    <Shortcut Id="IEEE1394CameraComp.exe" Directory="OpenCVMenuFolder"
+			      Name="IEEE1394CameraComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="ImageCalibrationComp.exe"
+			Name="ImageCalibrationComp.exe" DiskId="1"
+			Source="..\bin\\ImageCalibrationComp.exe">
+		    		    <Shortcut Id="ImageCalibrationComp.exe" Directory="OpenCVMenuFolder"
+			      Name="ImageCalibrationComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="ImageSubstractionComp.exe"
+			Name="ImageSubstractionComp.exe" DiskId="1"
+			Source="..\bin\\ImageSubstractionComp.exe">
+		    		    <Shortcut Id="ImageSubstractionComp.exe" Directory="OpenCVMenuFolder"
+			      Name="ImageSubstractionComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="ObjectTrackingComp.exe"
+			Name="ObjectTrackingComp.exe" DiskId="1"
+			Source="..\bin\\ObjectTrackingComp.exe">
+		    		    <Shortcut Id="ObjectTrackingComp.exe" Directory="OpenCVMenuFolder"
+			      Name="ObjectTrackingComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="OpenCVCameraComp.exe"
+			Name="OpenCVCameraComp.exe" DiskId="1"
+			Source="..\bin\\OpenCVCameraComp.exe">
+		    		    <Shortcut Id="OpenCVCameraComp.exe" Directory="OpenCVMenuFolder"
+			      Name="OpenCVCameraComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="PerspectiveComp.exe"
+			Name="PerspectiveComp.exe" DiskId="1"
+			Source="..\bin\\PerspectiveComp.exe">
+		    		    <Shortcut Id="PerspectiveComp.exe" Directory="OpenCVMenuFolder"
+			      Name="PerspectiveComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="PGRCameraComp.exe"
+			Name="PGRCameraComp.exe" DiskId="1"
+			Source="..\bin\\PGRCameraComp.exe">
+		    		    <Shortcut Id="PGRCameraComp.exe" Directory="OpenCVMenuFolder"
+			      Name="PGRCameraComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="RockPaperScissorsComp.exe"
+			Name="RockPaperScissorsComp.exe" DiskId="1"
+			Source="..\bin\\RockPaperScissorsComp.exe">
+		    		    <Shortcut Id="RockPaperScissorsComp.exe" Directory="OpenCVMenuFolder"
+			      Name="RockPaperScissorsComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="RotateComp.exe"
+			Name="RotateComp.exe" DiskId="1"
+			Source="..\bin\\RotateComp.exe">
+		    		    <Shortcut Id="RotateComp.exe" Directory="OpenCVMenuFolder"
+			      Name="RotateComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="ScaleComp.exe"
+			Name="ScaleComp.exe" DiskId="1"
+			Source="..\bin\\ScaleComp.exe">
+		    		    <Shortcut Id="ScaleComp.exe" Directory="OpenCVMenuFolder"
+			      Name="ScaleComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="SepiaComp.exe"
+			Name="SepiaComp.exe" DiskId="1"
+			Source="..\bin\\SepiaComp.exe">
+		    		    <Shortcut Id="SepiaComp.exe" Directory="OpenCVMenuFolder"
+			      Name="SepiaComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="SubStractCaptureImageComp.exe"
+			Name="SubStractCaptureImageComp.exe" DiskId="1"
+			Source="..\bin\\SubStractCaptureImageComp.exe">
+		    		    <Shortcut Id="SubStractCaptureImageComp.exe" Directory="OpenCVMenuFolder"
+			      Name="SubStractCaptureImageComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="TemplateComp.exe"
+			Name="TemplateComp.exe" DiskId="1"
+			Source="..\bin\\TemplateComp.exe">
+		    		    <Shortcut Id="TemplateComp.exe" Directory="OpenCVMenuFolder"
+			      Name="TemplateComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="translateComp.exe"
+			Name="translateComp.exe" DiskId="1"
+			Source="..\bin\\translateComp.exe">
+		    		    <Shortcut Id="translateComp.exe" Directory="OpenCVMenuFolder"
+			      Name="translateComp.exe"
+			      Show="normal"
+			      WorkingDirectory="CXXexamples"
+			      Icon="RTC.ico" IconIndex="0"
+			      > 
+		      		    </Shortcut>
+		    		  </File>
+		  		  <File Id="Affine.dll"
+			Name="Affine.dll" DiskId="1"
+			Source="..\bin\\Affine.dll">
+		    		  </File>
+		  		  <File Id="BackGroundSubtractionSimple.dll"
+			Name="BackGroundSubtractionSimple.dll" DiskId="1"
+			Source="..\bin\\BackGroundSubtractionSimple.dll">
+		    		  </File>
+		  		  <File Id="Binarization.dll"
+			Name="Binarization.dll" DiskId="1"
+			Source="..\bin\\Binarization.dll">
+		    		  </File>
+		  		  <File Id="CameraViewer.dll"
+			Name="CameraViewer.dll" DiskId="1"
+			Source="..\bin\\CameraViewer.dll">
+		    		  </File>
+		  		  <File Id="Chromakey.dll"
+			Name="Chromakey.dll" DiskId="1"
+			Source="..\bin\\Chromakey.dll">
+		    		  </File>
+		  		  <File Id="DilationErosion.dll"
+			Name="DilationErosion.dll" DiskId="1"
+			Source="..\bin\\DilationErosion.dll">
+		    		  </File>
+		  		  <File Id="Edge.dll"
+			Name="Edge.dll" DiskId="1"
+			Source="..\bin\\Edge.dll">
+		    		  </File>
+		  		  <File Id="Findcontour.dll"
+			Name="Findcontour.dll" DiskId="1"
+			Source="..\bin\\Findcontour.dll">
+		    		  </File>
+		  		  <File Id="Flip.dll"
+			Name="Flip.dll" DiskId="1"
+			Source="..\bin\\Flip.dll">
+		    		  </File>
+		  		  <File Id="Histogram.dll"
+			Name="Histogram.dll" DiskId="1"
+			Source="..\bin\\Histogram.dll">
+		    		  </File>
+		  		  <File Id="Hough.dll"
+			Name="Hough.dll" DiskId="1"
+			Source="..\bin\\Hough.dll">
+		    		  </File>
+		  		  <File Id="IEEE1394Camera.dll"
+			Name="IEEE1394Camera.dll" DiskId="1"
+			Source="..\bin\\IEEE1394Camera.dll">
+		    		  </File>
+		  		  <File Id="ImageCalibration.dll"
+			Name="ImageCalibration.dll" DiskId="1"
+			Source="..\bin\\ImageCalibration.dll">
+		    		  </File>
+		  		  <File Id="ImageSubstraction.dll"
+			Name="ImageSubstraction.dll" DiskId="1"
+			Source="..\bin\\ImageSubstraction.dll">
+		    		  </File>
+		  		  <File Id="ObjectTracking.dll"
+			Name="ObjectTracking.dll" DiskId="1"
+			Source="..\bin\\ObjectTracking.dll">
+		    		  </File>
+		  		  <File Id="OpenCVCamera.dll"
+			Name="OpenCVCamera.dll" DiskId="1"
+			Source="..\bin\\OpenCVCamera.dll">
+		    		  </File>
+		  		  <File Id="Perspective.dll"
+			Name="Perspective.dll" DiskId="1"
+			Source="..\bin\\Perspective.dll">
+		    		  </File>
+		  		  <File Id="PGRCamera.dll"
+			Name="PGRCamera.dll" DiskId="1"
+			Source="..\bin\\PGRCamera.dll">
+		    		  </File>
+		  		  <File Id="RockPaperScissors.dll"
+			Name="RockPaperScissors.dll" DiskId="1"
+			Source="..\bin\\RockPaperScissors.dll">
+		    		  </File>
+		  		  <File Id="Rotate.dll"
+			Name="Rotate.dll" DiskId="1"
+			Source="..\bin\\Rotate.dll">
+		    		  </File>
+		  		  <File Id="Scale.dll"
+			Name="Scale.dll" DiskId="1"
+			Source="..\bin\\Scale.dll">
+		    		  </File>
+		  		  <File Id="Sepia.dll"
+			Name="Sepia.dll" DiskId="1"
+			Source="..\bin\\Sepia.dll">
+		    		  </File>
+		  		  <File Id="SubStractCaptureImage.dll"
+			Name="SubStractCaptureImage.dll" DiskId="1"
+			Source="..\bin\\SubStractCaptureImage.dll">
+		    		  </File>
+		  		  <File Id="Template.dll"
+			Name="Template.dll" DiskId="1"
+			Source="..\bin\\Template.dll">
+		    		  </File>
+		  		  <File Id="Translate.dll"
+			Name="Translate.dll" DiskId="1"
+			Source="..\bin\\Translate.dll">
+		    		  </File>
+		  		  <File Id="libCVRTCSkel.lib"
+			Name="libCVRTCSkel.lib" DiskId="1"
+			Source="..\bin\\libCVRTCSkel.lib">
+		    		  </File>
+		  		</Component>
+	       </Directory>
+	      </Directory>
+	    </Directory>
+	  </Directory>
+	</Directory><!--end of OpenRTM-aist-->
+      </Directory>
+
+      <!-- システムフォルダ -->
+      <Directory Id="SystemFolder"
+		 SourceName="System32">
+
+      </Directory>
+      <!-- プログラムフォルダ -->
+      <Directory Id="ProgramMenuFolder">
+	<Directory Id="AppMenuFolder"
+		   Name="OpenRTM-aist">
+          <Directory Id="CxxMenuFolder" Name="C++">
+	    <Directory Id="ComponentsMenuFolder" Name="components">
+	      <Directory Id="OpenCVMenuFolder" Name="OpenCV">
+	      </Directory>
+	    </Directory>
+	  </Directory>
+	</Directory>
+      </Directory>
+    </Directory>
+
+    <!-- OpenRTM-aist -->
+    <Feature Id="OpenRTC" Level="1" Title="OpenRTM-aist (C++)">
+      <!-- examples -->
+      <Feature Id="Examples" Level="1" Title="Examples">
+	<ComponentRef Id="Examples"/>
+      </Feature>
+    </Feature>
+
+    <WixVariable Id="WixUILicenseRtf" Value="License.rtf" />
+    <WixVariable Id="WixUIBannerBmp" Value="Bitmaps/bannrbmp.bmp" />
+    <WixVariable Id="WixUIDialogBmp" Value="Bitmaps/dlgbmp.bmp" />
+
+    <UIRef Id="WixUI_Mondo" />
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLLOCATION" />
+  </Product>
+</Wix>

@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BackGroundSubtractionSimpleComp", "BackGroundSubtractionSimpleComp_vc9.vcproj", "{ECD1ED1B-4751-4EB5-8F03-45C97925ED40}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BackGroundSubtractionSimple", "BackGroundSubtractionSimple_vc9.vcproj", "{F934C897-60C7-41E7-86D8-5F70B6A2B9DB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECD1ED1B-4751-4EB5-8F03-45C97925ED40}.Release|Win32.ActiveCfg = Release|Win32
+		{ECD1ED1B-4751-4EB5-8F03-45C97925ED40}.Release|Win32.Build.0   = Release|Win32
+		{ECD1ED1B-4751-4EB5-8F03-45C97925ED40}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ECD1ED1B-4751-4EB5-8F03-45C97925ED40}.Debug|Win32.Build.0   = Debug|Win32
+		{F934C897-60C7-41E7-86D8-5F70B6A2B9DB}.Release|Win32.ActiveCfg = Release|Win32
+		{F934C897-60C7-41E7-86D8-5F70B6A2B9DB}.Release|Win32.Build.0   = Release|Win32
+		{F934C897-60C7-41E7-86D8-5F70B6A2B9DB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F934C897-60C7-41E7-86D8-5F70B6A2B9DB}.Debug|Win32.Build.0   = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

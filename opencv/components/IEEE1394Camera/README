@@ -1,0 +1,23 @@
+- 環境設定
+
+1.「Point Grey FlyCapture SDK」インストール
+- PGRDirectShowDecoder.ax
+- PGRDirectShowSource.ax
+- regsvr32 PGRDirectShowDecoder.ax PGRDirectShowSource.ax
+
+2.「Microsoft DirectXR SDK」インストール
+- Microsoft DirectX 9.0 SDK Update (Summer 2004)
+
+3.「Microsoft Windows Server 2003 R2 Platform SDK」インストール
+- Microsoft Platform SDK for Windows Server 2003 R2
+
+4. VC++設定
+-「ツール」→「オプション」→「プロジェクトおよびソリューション」
+--「VC++ディレクトリ」
+---「インクルードファイル」追加
+---- C:\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Samples\Multimedia\DirectShow\BaseClasses
+---- C:\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include\atl
+---- C:\Program Files\Microsoft DirectX 9.0 SDK (Summer 2004)\Include
+---「ライブラリファイル」追加
+---- C:\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Lib
+---- C:\Program Files\Microsoft DirectX 9.0 SDK (Summer 2004)\Lib

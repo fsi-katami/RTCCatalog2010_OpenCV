@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCVCameraComp", "OpenCVCameraComp_vc9.vcproj", "{6D62D887-F497-47A8-9228-E30DF83EE3A0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCVCamera", "OpenCVCamera_vc9.vcproj", "{47B02DC5-C5BB-4DEE-AD6B-621B64D14B2A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D62D887-F497-47A8-9228-E30DF83EE3A0}.Release|Win32.ActiveCfg = Release|Win32
+		{6D62D887-F497-47A8-9228-E30DF83EE3A0}.Release|Win32.Build.0   = Release|Win32
+		{6D62D887-F497-47A8-9228-E30DF83EE3A0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6D62D887-F497-47A8-9228-E30DF83EE3A0}.Debug|Win32.Build.0   = Debug|Win32
+		{47B02DC5-C5BB-4DEE-AD6B-621B64D14B2A}.Release|Win32.ActiveCfg = Release|Win32
+		{47B02DC5-C5BB-4DEE-AD6B-621B64D14B2A}.Release|Win32.Build.0   = Release|Win32
+		{47B02DC5-C5BB-4DEE-AD6B-621B64D14B2A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{47B02DC5-C5BB-4DEE-AD6B-621B64D14B2A}.Debug|Win32.Build.0   = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

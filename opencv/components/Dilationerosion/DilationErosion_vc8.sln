@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F3972DB6-A6E5-4AEA-8E41-9EE98CDA4B32}") = "DilationErosionComp", "DilationErosionComp_vc8.vcproj", "{76C6AD71-AAD6-4E6F-912C-A26A028228FB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F3972DB6-A6E5-4AEA-8E41-9EE98CDA4B32}") = "DilationErosion", "DilationErosion_vc8.vcproj", "{3F59E3F5-60D9-4284-8100-39F2EA9EADD2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76C6AD71-AAD6-4E6F-912C-A26A028228FB}.Release|Win32.ActiveCfg = Release|Win32
+		{76C6AD71-AAD6-4E6F-912C-A26A028228FB}.Release|Win32.Build.0   = Release|Win32
+		{76C6AD71-AAD6-4E6F-912C-A26A028228FB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{76C6AD71-AAD6-4E6F-912C-A26A028228FB}.Debug|Win32.Build.0   = Debug|Win32
+		{3F59E3F5-60D9-4284-8100-39F2EA9EADD2}.Release|Win32.ActiveCfg = Release|Win32
+		{3F59E3F5-60D9-4284-8100-39F2EA9EADD2}.Release|Win32.Build.0   = Release|Win32
+		{3F59E3F5-60D9-4284-8100-39F2EA9EADD2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F59E3F5-60D9-4284-8100-39F2EA9EADD2}.Debug|Win32.Build.0   = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

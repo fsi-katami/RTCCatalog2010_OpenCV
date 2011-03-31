@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{A120DEDD-AC50-4462-B82C-E3FF97F4D305}") = "PGRCameraComp", "PGRCameraComp_vc8.vcproj", "{6C9954B6-46B6-4B9E-8BC6-C43704C9CE4D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{A120DEDD-AC50-4462-B82C-E3FF97F4D305}") = "PGRCamera", "PGRCamera_vc8.vcproj", "{54C8056C-25D8-46FA-9015-2163BC33BD86}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C9954B6-46B6-4B9E-8BC6-C43704C9CE4D}.Release|Win32.ActiveCfg = Release|Win32
+		{6C9954B6-46B6-4B9E-8BC6-C43704C9CE4D}.Release|Win32.Build.0   = Release|Win32
+		{6C9954B6-46B6-4B9E-8BC6-C43704C9CE4D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6C9954B6-46B6-4B9E-8BC6-C43704C9CE4D}.Debug|Win32.Build.0   = Debug|Win32
+		{54C8056C-25D8-46FA-9015-2163BC33BD86}.Release|Win32.ActiveCfg = Release|Win32
+		{54C8056C-25D8-46FA-9015-2163BC33BD86}.Release|Win32.Build.0   = Release|Win32
+		{54C8056C-25D8-46FA-9015-2163BC33BD86}.Debug|Win32.ActiveCfg = Debug|Win32
+		{54C8056C-25D8-46FA-9015-2163BC33BD86}.Debug|Win32.Build.0   = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

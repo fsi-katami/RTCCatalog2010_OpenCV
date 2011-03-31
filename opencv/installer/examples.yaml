@@ -1,0 +1,237 @@
+Examples:
+  GUID: 65ABCD7D-54F5-4ECC-86D3-E9252730448B
+  Files:
+    - Id: rtc.conf
+      ShrotName: rtc.cnf
+      Name: rtc.conf
+      Source: ..\bin\rtc.conf
+      Shortcut: true
+    - Id: AffineComp.exe
+      ShortName: Affine.exe
+      Name: AffineComp.exe
+      Source: ..\bin\\AffineComp.exe
+      Shortcut: true
+    - Id: BackGroundSubtractionSimpleComp.exe
+      ShortName: BackGroundSubtractionSimple.exe
+      Name: BackGroundSubtractionSimpleComp.exe
+      Source: ..\bin\\BackGroundSubtractionSimpleComp.exe
+      Shortcut: true
+    - Id: BinarizationComp.exe
+      ShortName: Binarization.exe
+      Name: BinarizationComp.exe
+      Source: ..\bin\\BinarizationComp.exe
+      Shortcut: true
+    - Id: CameraViewerComp.exe
+      ShortName: CameraViewer.exe
+      Name: CameraViewerComp.exe
+      Source: ..\bin\\CameraViewerComp.exe
+      Shortcut: true
+    - Id: ChromakeyComp.exe
+      ShortName: Chromakey.exe
+      Name: ChromakeyComp.exe
+      Source: ..\bin\\ChromakeyComp.exe
+      Shortcut: true
+    - Id: DilationErosionComp.exe
+      ShortName: DilationErosion.exe
+      Name: DilationErosionComp.exe
+      Source: ..\bin\\DilationErosionComp.exe
+      Shortcut: true
+    - Id: EdgeComp.exe
+      ShortName: Edge.exe
+      Name: EdgeComp.exe
+      Source: ..\bin\\EdgeComp.exe
+      Shortcut: true
+    - Id: FindcontourComp.exe
+      ShortName: Findcontour.exe
+      Name: FindcontourComp.exe
+      Source: ..\bin\\FindcontourComp.exe
+      Shortcut: true
+    - Id: FlipComp.exe
+      ShortName: Flip.exe
+      Name: FlipComp.exe
+      Source: ..\bin\\FlipComp.exe
+      Shortcut: true
+    - Id: HistogramComp.exe
+      ShortName: Histogram.exe
+      Name: HistogramComp.exe
+      Source: ..\bin\\HistogramComp.exe
+      Shortcut: true
+    - Id: HoughComp.exe
+      ShortName: Hough.exe
+      Name: HoughComp.exe
+      Source: ..\bin\\HoughComp.exe
+      Shortcut: true
+    - Id: IEEE1394CameraComp.exe
+      ShortName: IEEE1394Camera.exe
+      Name: IEEE1394CameraComp.exe
+      Source: ..\bin\\IEEE1394CameraComp.exe
+      Shortcut: true
+    - Id: ImageCalibrationComp.exe
+      ShortName: ImageCalibration.exe
+      Name: ImageCalibrationComp.exe
+      Source: ..\bin\\ImageCalibrationComp.exe
+      Shortcut: true
+    - Id: ImageSubstractionComp.exe
+      ShortName: ImageSubstraction.exe
+      Name: ImageSubstractionComp.exe
+      Source: ..\bin\\ImageSubstractionComp.exe
+      Shortcut: true
+    - Id: ObjectTrackingComp.exe
+      ShortName: ObjectTracking.exe
+      Name: ObjectTrackingComp.exe
+      Source: ..\bin\\ObjectTrackingComp.exe
+      Shortcut: true
+    - Id: OpenCVCameraComp.exe
+      ShortName: OpenCVCamera.exe
+      Name: OpenCVCameraComp.exe
+      Source: ..\bin\\OpenCVCameraComp.exe
+      Shortcut: true
+    - Id: PerspectiveComp.exe
+      ShortName: Perspective.exe
+      Name: PerspectiveComp.exe
+      Source: ..\bin\\PerspectiveComp.exe
+      Shortcut: true
+    - Id: PGRCameraComp.exe
+      ShortName: PGRCamera.exe
+      Name: PGRCameraComp.exe
+      Source: ..\bin\\PGRCameraComp.exe
+      Shortcut: true
+    - Id: RockPaperScissorsComp.exe
+      ShortName: RockPaperScissors.exe
+      Name: RockPaperScissorsComp.exe
+      Source: ..\bin\\RockPaperScissorsComp.exe
+      Shortcut: true
+    - Id: RotateComp.exe
+      ShortName: Rotate.exe
+      Name: RotateComp.exe
+      Source: ..\bin\\RotateComp.exe
+      Shortcut: true
+    - Id: ScaleComp.exe
+      ShortName: Scale.exe
+      Name: ScaleComp.exe
+      Source:  ..\bin\\ScaleComp.exe
+      Shortcut: true
+    - Id: SepiaComp.exe
+      ShortName: Sepia.exe
+      Name: SepiaComp.exe
+      Source: ..\bin\\SepiaComp.exe
+      Shortcut: true
+    - Id: SubStractCaptureImageComp.exe
+      ShortName: SubStractCaptureImage.exe
+      Name: SubStractCaptureImageComp.exe
+      Source: ..\bin\\SubStractCaptureImageComp.exe
+      Shortcut: true
+    - Id: TemplateComp.exe
+      ShortName: Template.exe
+      Name: TemplateComp.exe
+      Source: ..\bin\\TemplateComp.exe
+      Shortcut: true
+    - Id: translateComp.exe
+      ShortName: translate.exe
+      Name: translateComp.exe
+      Source: ..\bin\\translateComp.exe
+      Shortcut: true
+    - Id: Affine.dll
+      ShortName: Affine.dll
+      Name: Affine.dll
+      Source: ..\bin\\Affine.dll
+    - Id: BackGroundSubtractionSimple.dll
+      ShortName: BackGroundSubtractionSimple.dll
+      Name: BackGroundSubtractionSimple.dll
+      Source: ..\bin\\BackGroundSubtractionSimple.dll
+    - Id: Binarization.dll
+      ShortName: Binarization.dll
+      Name: Binarization.dll
+      Source: ..\bin\\Binarization.dll
+    - Id: CameraViewer.dll
+      ShortName: CameraViewer.dll
+      Name: CameraViewer.dll
+      Source: ..\bin\\CameraViewer.dll
+    - Id: Chromakey.dll
+      ShortName: Chromakey.dll
+      Name: Chromakey.dll
+      Source: ..\bin\\Chromakey.dll
+    - Id: DilationErosion.dll
+      ShortName: DilationErosion.dll
+      Name: DilationErosion.dll
+      Source: ..\bin\\DilationErosion.dll
+    - Id: Edge.dll
+      ShortName: Edge.dll
+      Name: Edge.dll
+      Source: ..\bin\\Edge.dll
+    - Id: Findcontour.dll
+      ShortName: Findcontour.dll
+      Name: Findcontour.dll
+      Source: ..\bin\\Findcontour.dll
+    - Id: Flip.dll
+      ShortName: Flip.dll
+      Name: Flip.dll
+      Source: ..\bin\\Flip.dll
+    - Id: Histogram.dll
+      ShortName: Histogram.dll
+      Name: Histogram.dll
+      Source: ..\bin\\Histogram.dll
+    - Id: Hough.dll
+      ShortName: Hough.dll
+      Name: Hough.dll
+      Source: ..\bin\\Hough.dll
+    - Id: IEEE1394Camera.dll
+      ShortName: IEEE1394Camera.dll
+      Name: IEEE1394Camera.dll
+      Source: ..\bin\\IEEE1394Camera.dll
+    - Id: ImageCalibration.dll
+      ShortName: ImageCalibration.dll
+      Name: ImageCalibration.dll
+      Source: ..\bin\\ImageCalibration.dll
+    - Id: ImageSubstraction.dll
+      ShortName: ImageSubstraction.dll
+      Name: ImageSubstraction.dll
+      Source: ..\bin\\ImageSubstraction.dll
+    - Id: ObjectTracking.dll
+      ShortName: ObjectTracking.dll
+      Name: ObjectTracking.dll
+      Source: ..\bin\\ObjectTracking.dll
+    - Id: OpenCVCamera.dll
+      ShortName: OpenCVCamera.dll
+      Name: OpenCVCamera.dll
+      Source: ..\bin\\OpenCVCamera.dll
+    - Id: Perspective.dll
+      ShortName: Perspective.dll
+      Name: Perspective.dll
+      Source: ..\bin\\Perspective.dll
+    - Id: PGRCamera.dll
+      ShortName: PGRCamera.dll
+      Name: PGRCamera.dll
+      Source: ..\bin\\PGRCamera.dll
+    - Id: RockPaperScissors.dll
+      ShortName: RockPaperScissors.dll
+      Name: RockPaperScissors.dll
+      Source: ..\bin\\RockPaperScissors.dll
+    - Id: Rotate.dll
+      ShortName: Rotate.dll
+      Name: Rotate.dll
+      Source: ..\bin\\Rotate.dll
+    - Id: Scale.dll
+      ShortName: Scale.dll
+      Name: Scale.dll
+      Source: ..\bin\\Scale.dll
+    - Id: Sepia.dll
+      ShortName: Sepia.dll
+      Name: Sepia.dll
+      Source: ..\bin\\Sepia.dll
+    - Id: SubStractCaptureImage.dll
+      ShortName: SubStractCaptureImage.dll
+      Name: SubStractCaptureImage.dll
+      Source: ..\bin\\SubStractCaptureImage.dll
+    - Id: Template.dll
+      ShortName: Template.dll
+      Name: Template.dll
+      Source: ..\bin\\Template.dll
+    - Id: Translate.dll
+      ShortName: Translate.dll
+      Name: Translate.dll
+      Source: ..\bin\\Translate.dll
+    - Id: libCVRTCSkel.lib
+      ShortName: libCVRTCSkel.lib
+      Name: libCVRTCSkel.lib
+      Source: ..\bin\\libCVRTCSkel.lib

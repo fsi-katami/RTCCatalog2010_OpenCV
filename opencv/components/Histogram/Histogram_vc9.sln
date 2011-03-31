@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HistogramComp", "HistogramComp_vc9.vcproj", "{99680BF6-885B-4E82-BB69-889310EF571F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Histogram", "Histogram_vc9.vcproj", "{BE02F9BC-7E7F-4A3A-964E-D43530829842}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99680BF6-885B-4E82-BB69-889310EF571F}.Release|Win32.ActiveCfg = Release|Win32
+		{99680BF6-885B-4E82-BB69-889310EF571F}.Release|Win32.Build.0   = Release|Win32
+		{99680BF6-885B-4E82-BB69-889310EF571F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{99680BF6-885B-4E82-BB69-889310EF571F}.Debug|Win32.Build.0   = Debug|Win32
+		{BE02F9BC-7E7F-4A3A-964E-D43530829842}.Release|Win32.ActiveCfg = Release|Win32
+		{BE02F9BC-7E7F-4A3A-964E-D43530829842}.Release|Win32.Build.0   = Release|Win32
+		{BE02F9BC-7E7F-4A3A-964E-D43530829842}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BE02F9BC-7E7F-4A3A-964E-D43530829842}.Debug|Win32.Build.0   = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

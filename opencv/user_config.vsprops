@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="shift_jis"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="OpenCV_DirectShow"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="$(cv_includes)"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalLibraryDirectories="$(cv_libdir);$(skel_libdir)"
+	/>
+	<UserMacro
+		Name="cv_root"
+		Value="C:\OpenCV2.1"
+	/>
+	<UserMacro
+		Name="cv_includes"
+		Value="&quot;$(cv_root)\include\opencv&quot;"
+	/>
+	<UserMacro
+		Name="cv_libdir"
+		Value="&quot;$(cv_root)\lib&quot;"
+	/>
+	<UserMacro
+		Name="skel_libdir"
+		Value="&quot;$(SolutionDir)\bin\&quot;"
+	/>
+	<UserMacro
+		Name="cv_bin"
+		Value="$(cv_root)\bin"
+	/>
+	<UserMacro
+		Name="cv_lib"
+		Value="cv210.lib highgui210.lib cxcore210.lib"
+	/>
+	<UserMacro
+		Name="cv_libd"
+		Value="cv210d.lib highgui210d.lib cxcore210d.lib"
+	/>
+	<UserMacro
+		Name="ds_lib"
+		Value="strmiids.lib winmm.lib strmbase.lib quartz.lib comsuppw.lib"
+	/>
+	<UserMacro
+		Name="ds_libd"
+		Value="strmiids.lib winmm.lib strmbasd.lib quartz.lib comsuppw.lib"
+	/>
+	<UserMacro
+		Name="skel_lib"
+		Value="libCVRTCSkel.lib"
+	/>
+	<UserMacro
+		Name="skel_libd"
+		Value="libCVRTCSkeld.lib"
+	/>
+</VisualStudioPropertySheet>

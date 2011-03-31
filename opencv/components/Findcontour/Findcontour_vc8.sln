@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{EE64F50D-2291-41B8-8112-603730F591CE}") = "FindcontourComp", "FindcontourComp_vc8.vcproj", "{1E351D1C-9D06-4A83-835E-C565342FC535}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{EE64F50D-2291-41B8-8112-603730F591CE}") = "Findcontour", "Findcontour_vc8.vcproj", "{9F11BF30-69BF-47F1-87DE-E69672820F4A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E351D1C-9D06-4A83-835E-C565342FC535}.Release|Win32.ActiveCfg = Release|Win32
+		{1E351D1C-9D06-4A83-835E-C565342FC535}.Release|Win32.Build.0   = Release|Win32
+		{1E351D1C-9D06-4A83-835E-C565342FC535}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1E351D1C-9D06-4A83-835E-C565342FC535}.Debug|Win32.Build.0   = Debug|Win32
+		{9F11BF30-69BF-47F1-87DE-E69672820F4A}.Release|Win32.ActiveCfg = Release|Win32
+		{9F11BF30-69BF-47F1-87DE-E69672820F4A}.Release|Win32.Build.0   = Release|Win32
+		{9F11BF30-69BF-47F1-87DE-E69672820F4A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9F11BF30-69BF-47F1-87DE-E69672820F4A}.Debug|Win32.Build.0   = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

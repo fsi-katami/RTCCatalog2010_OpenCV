@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{B851E3F7-B5D7-41CA-8A33-AFC0126ABA8C}") = "FlipComp", "FlipComp_vc8.vcproj", "{9D4CB547-0657-48F8-91D4-99E3BA612ADC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{B851E3F7-B5D7-41CA-8A33-AFC0126ABA8C}") = "Flip", "Flip_vc8.vcproj", "{09132909-8954-4A66-902D-6431AF49E44D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D4CB547-0657-48F8-91D4-99E3BA612ADC}.Release|Win32.ActiveCfg = Release|Win32
+		{9D4CB547-0657-48F8-91D4-99E3BA612ADC}.Release|Win32.Build.0   = Release|Win32
+		{9D4CB547-0657-48F8-91D4-99E3BA612ADC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D4CB547-0657-48F8-91D4-99E3BA612ADC}.Debug|Win32.Build.0   = Debug|Win32
+		{09132909-8954-4A66-902D-6431AF49E44D}.Release|Win32.ActiveCfg = Release|Win32
+		{09132909-8954-4A66-902D-6431AF49E44D}.Release|Win32.Build.0   = Release|Win32
+		{09132909-8954-4A66-902D-6431AF49E44D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{09132909-8954-4A66-902D-6431AF49E44D}.Debug|Win32.Build.0   = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

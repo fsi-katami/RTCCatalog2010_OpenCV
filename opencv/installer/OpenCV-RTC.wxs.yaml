@@ -1,0 +1,18 @@
+Product:
+  Name: OpenCV-RTC
+  GroupName: OpenRTM-aist
+  ShortName: OpenCV
+  Id: 06A98853-F461-4EF0-869C-B3C7C6C905A8
+  Language: "1041"
+  Codepage: "932"
+  Version: 0.0.1
+  GroupVersion: 1.0
+  Manufacturer: AIST
+  UpgradeCode: 49BB3B22-F6CB-4D46-BCA4-1B5E19D5265E
+
+Package:
+  Description: OpenCV-RTM Installer
+  InstallerVersion: "100"
+  Languages: "1041"
+  Compressed: 'yes'
+  SummaryCodepage: "932"

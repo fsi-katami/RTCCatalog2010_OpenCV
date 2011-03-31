@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageCalibrationComp", "ImageCalibrationComp_vc9.vcproj", "{D8B9C29B-8E43-48D8-8519-4B429AA3B25B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageCalibration", "ImageCalibration_vc9.vcproj", "{A09F7780-6398-4740-A50F-93E30E3E842A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8B9C29B-8E43-48D8-8519-4B429AA3B25B}.Release|Win32.ActiveCfg = Release|Win32
+		{D8B9C29B-8E43-48D8-8519-4B429AA3B25B}.Release|Win32.Build.0   = Release|Win32
+		{D8B9C29B-8E43-48D8-8519-4B429AA3B25B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D8B9C29B-8E43-48D8-8519-4B429AA3B25B}.Debug|Win32.Build.0   = Debug|Win32
+		{A09F7780-6398-4740-A50F-93E30E3E842A}.Release|Win32.ActiveCfg = Release|Win32
+		{A09F7780-6398-4740-A50F-93E30E3E842A}.Release|Win32.Build.0   = Release|Win32
+		{A09F7780-6398-4740-A50F-93E30E3E842A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A09F7780-6398-4740-A50F-93E30E3E842A}.Debug|Win32.Build.0   = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F5C4E2A7-7A7F-4A0B-B782-02BA5225AD92}") = "ObjectTrackingComp", "ObjectTrackingComp_vc8.vcproj", "{9DAB0479-E13C-44D6-9A64-8B0E84230BDB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F5C4E2A7-7A7F-4A0B-B782-02BA5225AD92}") = "ObjectTracking", "ObjectTracking_vc8.vcproj", "{007FDABB-7023-4FA2-9193-1336C41D8BB1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DAB0479-E13C-44D6-9A64-8B0E84230BDB}.Release|Win32.ActiveCfg = Release|Win32
+		{9DAB0479-E13C-44D6-9A64-8B0E84230BDB}.Release|Win32.Build.0   = Release|Win32
+		{9DAB0479-E13C-44D6-9A64-8B0E84230BDB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9DAB0479-E13C-44D6-9A64-8B0E84230BDB}.Debug|Win32.Build.0   = Debug|Win32
+		{007FDABB-7023-4FA2-9193-1336C41D8BB1}.Release|Win32.ActiveCfg = Release|Win32
+		{007FDABB-7023-4FA2-9193-1336C41D8BB1}.Release|Win32.Build.0   = Release|Win32
+		{007FDABB-7023-4FA2-9193-1336C41D8BB1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{007FDABB-7023-4FA2-9193-1336C41D8BB1}.Debug|Win32.Build.0   = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

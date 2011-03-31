@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{6A907B56-E4CB-4C1E-BC9B-D4E1F62D0DC9}") = "ImageSubstractionComp", "ImageSubstractionComp_vc8.vcproj", "{C496AE27-F59D-4A49-B69A-E64D5363B634}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{6A907B56-E4CB-4C1E-BC9B-D4E1F62D0DC9}") = "ImageSubstraction", "ImageSubstraction_vc8.vcproj", "{336539CA-BCE2-447B-A342-AA2BB27894FB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C496AE27-F59D-4A49-B69A-E64D5363B634}.Release|Win32.ActiveCfg = Release|Win32
+		{C496AE27-F59D-4A49-B69A-E64D5363B634}.Release|Win32.Build.0   = Release|Win32
+		{C496AE27-F59D-4A49-B69A-E64D5363B634}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C496AE27-F59D-4A49-B69A-E64D5363B634}.Debug|Win32.Build.0   = Debug|Win32
+		{336539CA-BCE2-447B-A342-AA2BB27894FB}.Release|Win32.ActiveCfg = Release|Win32
+		{336539CA-BCE2-447B-A342-AA2BB27894FB}.Release|Win32.Build.0   = Release|Win32
+		{336539CA-BCE2-447B-A342-AA2BB27894FB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{336539CA-BCE2-447B-A342-AA2BB27894FB}.Debug|Win32.Build.0   = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

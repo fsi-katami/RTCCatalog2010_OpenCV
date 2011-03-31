@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{6A9EE2DA-04B8-4EDD-B2C3-29FBB8A63A9F}") = "HoughComp", "HoughComp_vc8.vcproj", "{FD217E78-57FB-44F1-B89C-575F30E93425}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{6A9EE2DA-04B8-4EDD-B2C3-29FBB8A63A9F}") = "Hough", "Hough_vc8.vcproj", "{B46F0524-7AA9-43E6-A4BF-8F0713AB8251}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD217E78-57FB-44F1-B89C-575F30E93425}.Release|Win32.ActiveCfg = Release|Win32
+		{FD217E78-57FB-44F1-B89C-575F30E93425}.Release|Win32.Build.0   = Release|Win32
+		{FD217E78-57FB-44F1-B89C-575F30E93425}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD217E78-57FB-44F1-B89C-575F30E93425}.Debug|Win32.Build.0   = Debug|Win32
+		{B46F0524-7AA9-43E6-A4BF-8F0713AB8251}.Release|Win32.ActiveCfg = Release|Win32
+		{B46F0524-7AA9-43E6-A4BF-8F0713AB8251}.Release|Win32.Build.0   = Release|Win32
+		{B46F0524-7AA9-43E6-A4BF-8F0713AB8251}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B46F0524-7AA9-43E6-A4BF-8F0713AB8251}.Debug|Win32.Build.0   = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
